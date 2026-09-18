@@ -64,7 +64,7 @@ export default function CenterCard({ onOpenLetter }) {
           Made with love
         </span>
         <span className="hidden items-center gap-4 sm:flex">
-          <span>[Your Name]</span>
+          <span>Nafees Haider</span>
           <MailIcon className="h-3 w-3" />
         </span>
       </div>
@@ -195,7 +195,7 @@ export default function CenterCard({ onOpenLetter }) {
               <Photo src="/photos/hero.jpg" alt="us" className="h-10 w-10 rounded-full ring-2 ring-rosy-200" />
               <div className="text-xs">
                 <p className="font-semibold text-slate">Signed with all my love</p>
-                <p className="text-slate/50">[Your Name] · for {herName}</p>
+                <p className="text-slate/50">Nafees Haider · for {herName}</p>
               </div>
             </div>
           </div>
