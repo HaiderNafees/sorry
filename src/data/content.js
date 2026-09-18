@@ -7,7 +7,7 @@
  * ─────────────────────────────────────────────────────────────
  */
 
-export const herName = '[Her Name]';
+export const herName = 'Fati';
 export const yourName = 'Nafees Haider';
 
 /* ── Photos: put these files in public/photos/ ── */
@@ -37,9 +37,9 @@ export const apology = {
     'I am not asking you to pretend it did not happen. I am only asking for the chance to show you, day by day, that I can be better. Here is what I will do differently:',
   ],
   commitments: [
-    '[What I Will Do Differently]',
-    '[What I Will Do Differently]',
-    '[What I Will Do Differently]',
+    'Communicate openly and honestly — no more letting things go unsaid or hiding behind silence.',
+    'Make time for us every single day, no matter how busy life gets — you are always my priority.',
+    'Show patience and understanding — you deserve gentleness, and I will give you that always.',
   ],
   closingLine: 'You are worth every ounce of effort this will take.',
 };
