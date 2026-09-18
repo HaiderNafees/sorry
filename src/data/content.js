@@ -73,11 +73,36 @@ export const promises = {
   title: 'My Promises',
   eyebrow: 'Promises pride',
   items: [
-    { title: 'Listen better', text: '[Promise 1] — I will listen to understand, not to reply.', icon: 'ear' },
-    { title: 'Communicate consistently', text: '[Promise 2] — every day: good days, hard days, quiet days.', icon: 'chat' },
-    { title: 'Plan our visits', text: '[Promise 3] — time, budget, intention — never "someday".', icon: 'plane' },
-    { title: 'Be patient', text: '[Promise 4] — with the distance, and with you, always.', icon: 'clock' },
-    { title: 'Show up for you', text: 'Present, reliable, and proud to be yours, every day.', icon: 'heart' },
+    {
+      title: 'Listen better',
+      text: '[Promise 1] — I will listen to understand, not to reply.',
+      detail: 'When you speak, I will give you my full attention — no distractions, no half-listening. I will hear not just your words but the feelings behind them. You deserve to feel truly heard, and I promise to make that happen every single time.',
+      icon: 'ear',
+    },
+    {
+      title: 'Communicate consistently',
+      text: '[Promise 2] — every day: good days, hard days, quiet days.',
+      detail: 'I promise to reach out every day — not just when it is easy, but especially when it is hard. No more silence that leaves you guessing. I will share my thoughts, check in on yours, and make sure you never feel alone in this.',
+      icon: 'chat',
+    },
+    {
+      title: 'Plan our visits',
+      text: '[Promise 3] — time, budget, intention — never "someday".',
+      detail: 'No more vague promises of "someday." I will set real dates, save with purpose, and make sure every visit is something we can both look forward to. Our time together is too precious to leave to chance.',
+      icon: 'plane',
+    },
+    {
+      title: 'Be patient',
+      text: '[Promise 4] — with the distance, and with you, always.',
+      detail: 'Distance tests patience like nothing else. I promise to meet frustration with grace, to never rush you, and to give us both the space we need. I will be patient with the miles, with the time zones, and with the moments when it all feels like too much.',
+      icon: 'clock',
+    },
+    {
+      title: 'Show up for you',
+      text: 'Present, reliable, and proud to be yours, every day.',
+      detail: 'Being present does not always mean being physically there. I promise to show up emotionally, mentally, and in every way I can — whether it is a late-night call, a surprise delivery, or simply being the person you can always count on.',
+      icon: 'heart',
+    },
   ],
 };
 

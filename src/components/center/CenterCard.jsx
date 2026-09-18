@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Photo from '../ui/Photo.jsx';
+import PromiseModal from '../PromiseModal.jsx';
 import {
   HeartIcon,
   SearchIcon,
@@ -36,6 +37,7 @@ const PROMISE_ICONS = {
 export default function CenterCard({ onOpenLetter }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [selectedPromise, setSelectedPromise] = useState(null);
 
   // Frosted nav inside the card once the page scrolls
   useEffect(() => {
@@ -266,7 +268,14 @@ export default function CenterCard({ onOpenLetter }) {
               {promises.items.map((p, i) => {
                 const Icon = PROMISE_ICONS[p.icon] || HeartIcon;
                 return (
-                  <li key={i} className="group flex items-center gap-3.5 py-3.5">
+                  <li
+                    key={i}
+                    className="group flex cursor-pointer items-center gap-3.5 py-3.5 transition-colors hover:bg-rosy-50/50 -mx-2 rounded-xl px-2"
+                    onClick={() => setSelectedPromise(p)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === 'Enter' && setSelectedPromise(p)}
+                  >
                     <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-rosy-50 text-rosy-500 transition-colors duration-300 group-hover:bg-rosy-500 group-hover:text-white">
                       <Icon className="h-[18px] w-[18px]" />
                     </span>
@@ -282,6 +291,8 @@ export default function CenterCard({ onOpenLetter }) {
           </div>
         </div>
       </div>
+
+      <PromiseModal promise={selectedPromise} onClose={() => setSelectedPromise(null)} />
     </div>
   );
 }
