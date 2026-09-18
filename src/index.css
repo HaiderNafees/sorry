@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Keeps sticky-navbar links from hiding section titles under the bar */
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-cream text-slate font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-rosy-100 text-rosy-700;
+  }
+}
+
+@layer utilities {
+  /* Pause the floating hearts for users who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .motion-safe-float,
+    .motion-safe-beat {
+      animation: none;
+    }
+  }
+}
