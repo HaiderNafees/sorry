@@ -49,8 +49,8 @@ export const gratitude = {
   title: 'Thank You, My Love',
   paragraphs: [
     'Thank you for your patience when the miles feel endless, and for your strength when I could not be there in person. You carry us both with a grace that humbles me.',
-    'Thank you for [Specific Thing I Appreciate About Her]. Small to anyone else, but everything to me — it is one of the countless ways you make my life lighter and warmer.',
-    'And thank you for [Memory That Reminds Me Of Her Love]. Whenever I remember it, I am reminded that your love is not a feeling that fades — it is a choice you make every day, and I get to be the lucky one on the receiving end.',
+    'Thank you for giving me a last chance. Small to anyone else, but everything to me — it is one of the countless ways you make my life lighter and warmer.',
+    'And thank you for everywhere I go I miss you because you are the love of my life. Whenever I remember it, I am reminded that your love is not a feeling that fades — it is a choice you make every day, and I get to be the lucky one on the receiving end.',
   ],
 };
 
