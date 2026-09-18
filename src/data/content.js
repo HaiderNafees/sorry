@@ -32,7 +32,7 @@ export const apology = {
   preview: 'I was wrong. It was my fault — fully and completely.',
   greeting: `Dear ${herName},`,
   paragraphs: [
-    'I have been thinking about [What I Am Apologizing For] every single day. When I look back, I see clearly how much hurt it caused you, and I want you to know: it was my fault, fully and completely. No distance, no stress, no circumstances excuse it.',
+    'I have been thinking about how I lied to you every single day. When I look back, I see clearly how much hurt it caused you, and I want you to know: it was my fault, fully and completely. No distance, no stress, no circumstances excuse it.',
     'You did not deserve any of it. You deserved patience, honesty, and tenderness — and I fell short of the man you chose.',
     'I am not asking you to pretend it did not happen. I am only asking for the chance to show you, day by day, that I can be better. Here is what I will do differently:',
   ],
@@ -41,7 +41,7 @@ export const apology = {
     'Make time for us every single day, no matter how busy life gets — you are always my priority.',
     'Show patience and understanding — you deserve gentleness, and I will give you that always.',
   ],
-  closingLine: 'You are worth every ounce of effort this will take.',
+  closingLine: 'You are worth every ounce of effort this will take. Please give me a second chance — I will spend every day proving I deserve it.',
 };
 
 /* ── Thank You, My Love ── */
