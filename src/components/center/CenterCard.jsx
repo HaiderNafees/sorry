@@ -194,7 +194,7 @@ export default function CenterCard({ onOpenLetter }) {
 
             {/* Signer row */}
             <div className="mt-9 flex items-center gap-3">
-              <Photo src="/photos/hero.jpg" alt="us" className="h-10 w-10 rounded-full ring-2 ring-rosy-200" />
+              <Photo src="https://iili.io/nzTKfpV.jpg" alt="us" className="h-10 w-10 rounded-full ring-2 ring-rosy-200" />
               <div className="text-xs">
                 <p className="font-semibold text-slate">Signed with all my love</p>
                 <p className="text-slate/50">Nafees Haider · for {herName}</p>

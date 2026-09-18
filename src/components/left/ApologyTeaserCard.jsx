@@ -19,10 +19,10 @@ export default function ApologyTeaserCard({ onOpenLetter }) {
       <button type="button" onClick={onOpenLetter} className="mt-4 block w-full text-left">
         {/* 3-photo mini grid: tall left, two stacked right */}
         <div className="grid h-44 grid-cols-2 gap-2">
-          <Photo src="/photos/memory-1.jpg" alt="[Memory Caption]" className="rounded-2xl" />
+          <Photo src="https://iili.io/nzzLrZB.jpg" alt="Memory" className="rounded-2xl" />
           <div className="grid grid-rows-2 gap-2">
-            <Photo src="/photos/memory-2.jpg" alt="[Memory Caption]" className="rounded-2xl" />
-            <Photo src="/photos/memory-3.jpg" alt="[Memory Caption]" className="rounded-2xl" />
+            <Photo src="https://iili.io/nzI92pe.jpg" alt="Memory" className="rounded-2xl" />
+            <Photo src="https://iili.io/nzIxC2n.jpg" alt="Memory" className="rounded-2xl" />
           </div>
         </div>
       </button>

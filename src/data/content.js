@@ -16,12 +16,12 @@ export const photos = {
   // a local file in public/photos/ anytime.
   hero: 'https://iili.io/nopOQbs.jpg',
   memories: [
-    '/photos/memory-1.jpg',
-    '/photos/memory-2.jpg',
-    '/photos/memory-3.jpg',
-    '/photos/memory-4.jpg',
-    '/photos/memory-5.jpg',
-    '/photos/memory-6.jpg',
+    'https://iili.io/nzzLrZB.jpg',
+    'https://iili.io/nzI92pe.jpg',
+    'https://iili.io/nzIxC2n.jpg',
+    'https://iili.io/nzIXapf.jpg',
+    'https://iili.io/nzIiF5v.jpg',
+    'https://iili.io/nzIDwhv.jpg',
   ],
 };
 
